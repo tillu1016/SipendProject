@@ -1,0 +1,214 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+:global{
+  
+  .ms-CommandBar{
+    background-color: white !important;    
+    padding:0px 0px !important;
+    border-bottom: 1px solid #DFDFDF;
+  } 
+  .ms-CommandBarItem-link{
+    border: 0px !important;
+    background-color: white !important;
+  }
+  .cmdActive{
+    color:#c5103d !important;
+  }
+  .cmdInactive{
+    color:#1E1E1E !important;
+  }
+  a.ms-CommandBarItem-link:hover{
+    color:#c5103d !important;
+  }
+  .esraBenefeciaryDetail .row{
+    margin:0px !important;
+    padding:10px 0px !important;
+    }
+  [data-sp-feature-tag="Site header host"]{
+    background-color: rgb(197, 15, 60);
+  }
+  [data-automationid="SiteHeader"]{
+    background-color: rgb(197, 15, 60);
+  }
+  
+
+div[class*="topNavBox"] {
+  display:none
+}
+div[class*="logoCell"] {
+  display:none
+}
+.webPartContainer{display :none !important} 
+
+  .commandBarWrapper {
+    display: none !important;
+    }
+   
+    .ms-SPLegacyFabricBlock {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+    .MuiSnackbar-root{
+      display: none !important;
+    }
+  .CanvasZone > div {
+margin: 0px !important;
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+}
+.CanvasZone > div > .CanvasSection {
+padding: 0;
+}
+.esraTopNavigation > div > div{
+margin: 0px !important;
+}
+.esraBenefeciaryDetail .row{
+padding:0px;
+margin:0px;
+}
+.MuiTableContainer-root {
+width: calc(100% - 2px) !important;
+}
+.MuiButton-root{
+text-transform: capitalize !important;
+}
+.ms-DetailsHeader-cell.is-actionable {
+    height: 30px;
+}
+.ms-FocusZone.ms-DetailsHeader, .ms-FocusZone.ms-DetailsRow, div#StipendDetails {
+background-color: #FFD9E2;
+border-bottom:none;
+color: #1E1E1E;
+height:30px;
+}
+.ms-DetailsHeader-cell.is-actionable, .ms-FocusZone.ms-DetailsRow:hover{
+background-color: transparent;
+color: #1E1E1E;
+}
+ .ms-DetailsList {
+    border-top: 2px solid #C5103D;
+}
+.ms-DetailsRow-cell button{
+    color: #1E1E1E;
+    width: 30px;
+    height: 20px;
+}
+.ms-DetailsRow-cell button:hover {
+    color: #1E1E1E;
+    background-color: transparent;
+}
+} 
+
+.esraTopNavigation {
+  .container {
+    max-width: 100%;
+    margin: 0px auto;
+    box-shadow: none;
+  }
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: white !important;
+    padding: 0px;
+    > div{
+    > div{
+      background-color: white !important;
+      color: #fff;
+      height: 30px;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 5px 15px;
+      line-height: 30px;
+    }
+    }
+  }
+  .redbtn{
+
+    background: #fff;
+    color: #c50f3c;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    border: 1px solid #c50f3c;
+    z-index: 999!important;
+    font-size: 14px!important;
+    text-align: center!important;
+    border-radius: 2px;
+    
+    p{
+    
+    padding:5px;
+    
+    margin: 0;
+    
+    }
+    
+    }
+  .commandBarStyle{
+    max-width: 100%;
+    background-color: #ffffff !important;
+    padding:0px !important;
+    height: 40px !important;
+   
+  }
+  
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}

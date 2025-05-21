@@ -1,0 +1,81 @@
+:global{
+  
+  .ms-CommandBar{
+    background-color: white !important;    
+    padding:0px 0px !important;
+    border-bottom: 1px solid #DFDFDF;
+  } 
+  .ms-CommandBarItem-link{
+    border: 0px !important;
+    background-color: white !important;
+  }
+  .cmdActive{
+    color:#c5103d !important;
+  }
+  .cmdInactive{
+    color:#1E1E1E !important;
+  }
+  a.ms-CommandBarItem-link:hover{
+    color:#c5103d !important;
+  }
+  .CanvasSection .ControlZone {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+  .esraBenefeciaryDetail .row{
+    margin:0px !important;
+    padding:10px 0px !important;
+    }
+  [data-sp-feature-tag="Site header host"]{
+    padding-left: 5px !important;
+     padding-right: 5px !important;
+    
+    background-color: rgb(197, 15, 60);
+  }
+  [data-automationid="SiteHeader"]{
+    background-color: rgb(197, 15, 60);
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+   
+  }
+  
+
+div[class*="topNavBox"] {
+  display:none
+}
+div[class*="logoCell"] {
+  display:none
+}
+div[data-viewport-id*="Page.CommentsWrapper"] {
+  display:none
+}
+
+.MuiIconButton-colorSecondary {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+.webPartContainer{display :none !important} 
+
+  .commandBarWrapper {
+    display: none !important;
+    }
+   
+    .ms-SPLegacyFabricBlock {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+    .MuiSnackbar-root{
+      display: none !important;
+    }
+  .CanvasZone > div {
+margin: 0px !important;
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+}
+.CanvasZone > div > .CanvasSection {
+padding: 0;
+}
+.mainHeader{
+  padding-left:16px;
+  padding-right:16px;
+}
